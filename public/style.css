@@ -1,12 +1,58 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
+body {
+    font-family: 'Arial', sans-serif;
     max-width: 800px;
-    margin: auto;
-    display: flex-col;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
-    width: auto;
+    background: linear-gradient(135deg, #4e54c8, #8f94fb); /* Softer blue and purple gradient */
+    color: #ffffff; 
+    padding: 40px; 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    min-height: 100vh; 
 }
-img{
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff; 
+    margin: 10px 0; 
+    text-align: center; 
+}
+
+p {
+    color: #d1d1d1; /* Softer light gray for paragraphs */
+    line-height: 1.6; 
+    margin: 10px 0; 
+}
+
+img {
     width: 100%;
+    border-radius: 12px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+    margin: 20px 0; 
+}
+
+a {
+    color: #ffcc00; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+a:hover {
+    text-decoration: underline; 
+    color: #ffd700; 
+}
+
+button {
+    background-color: #4e54c8; /* Matching button color with the gradient */
+    color: #ffffff; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #8f94fb; /* Lighter shade for hover effect */
 }
